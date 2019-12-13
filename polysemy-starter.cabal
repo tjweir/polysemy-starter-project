@@ -33,7 +33,7 @@ library
   hs-source-dirs:
       src
   default-extensions: DataKinds FlexibleContexts GADTs LambdaCase PolyKinds RankNTypes ScopedTypeVariables TypeApplications TypeOperators TypeFamilies
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -Wall -O2 -flate-specialise -fspecialise-aggressively
+  ghc-options: -Wall -O2 -flate-specialise -fspecialise-aggressively
   build-depends:
       base >=4.7 && <5
     , polysemy >=1.2.3.0
